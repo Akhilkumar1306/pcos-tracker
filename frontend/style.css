@@ -306,20 +306,12 @@ button {
 }
 
 body {
-    background: linear-gradient(-45deg, #8e44ad, #3498db, #2ecc71, #1abc9c);
-    background-size: 400% 400%;
-    animation: gradientBG 8s ease infinite;
-}
-
-@keyframes gradientBG {
-    0% { background-position: 0% }
-    50% { background-position: 100% }
-    100% { background-position: 0% }
+    background: linear-gradient(135deg, #2c9ee5, #af639c);
 }
 
 
 .task, .stat-card {
-    background: rgba(255,255,255,0.2);
-    backdrop-filter: blur(10px);
-    color: black;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 }
